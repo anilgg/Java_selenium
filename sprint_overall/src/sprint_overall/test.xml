@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread="1" verbose="1" name="Regression Test Cases"> 
+       <test name="Testopen"> 
+              <classes> 
+                     <class name="sprint_overall.Workbooksheet"/>
+              </classes> 
+       </test> 
+         <test name="Test1">
+              <classes> 
+              <class name="sprint_overall.MyAccount_59"/> 
+              </classes> 
+       </test> 
+        <test name="Test2"> 
+              <classes> 
+                     <class name="sprint_overall.MyAccount_58"/> 
+       </classes>
+       </test>  
+    <test name="Test3">
+       <classes>
+              <class name="sprint_overall.MyAccount_56"/> 
+       </classes>
+    </test> 
+    <test name="Test4">
+       <classes>
+              <class name="sprint_overall.Workbooksheet_close"/> 
+       </classes>
+    </test> 
+    </suite>
+    

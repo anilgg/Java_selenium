@@ -1,0 +1,169 @@
+	Automation Test Suite Log	
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Fri Aug 07 22:19:16 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unexpected internal error near index 1
+\
+ ^ Screenshot - H:\Workspace\smartview\reports\screenshots\1439000356249_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:19:16 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439000356724_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:19:16 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Fri Aug 07 22:20:21 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: null on retrieving data by key Note. Screenshot - H:\Workspace\smartview\reports\screenshots\1439000421287_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:20:21 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439000421655_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:20:22 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Fri Aug 07 22:31:07 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: null on retrieving data by key Note. Screenshot - H:\Workspace\smartview\reports\screenshots\1439001066549_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:31:07 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439001067035_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:31:07 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Fri Aug 07 22:57:01 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439002620788_ScreenshotBrowser.png"	Failed	Fri Aug 07 22:57:01 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Fri Aug 07 23:01:04 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439002864413_ScreenshotBrowser.png"	Failed	Fri Aug 07 23:01:04 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 22:44:47 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: null on retrieving data by key Note. Screenshot - H:\Workspace\smartview\reports\screenshots\1439261087221_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:44:47 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439261087821_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:44:48 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 22:46:57 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 74bda495-1e5c-4c68-8731-024ed53c0e08 Screenshot - H:\Workspace\smartview\reports\screenshots\1439261216777_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:46:57 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439261217208_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:46:57 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 22:49:26 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439261366300_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:49:26 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 22:53:07 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unable to locate element: {"method":"xpath","selector":".//div[@id='dsh-tlbr-grp-lbl']"}
+Command duration or timeout: 675 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ea68a08e-6c07-4b6a-a3a7-8551169b8e00
+*** Element info: {Using=xpath, value=.//div[@id='dsh-tlbr-grp-lbl']} Screenshot - H:\Workspace\smartview\reports\screenshots\1439261587222_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:53:07 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439261587596_ScreenshotBrowser.png"	Failed	Mon Aug 10 22:53:07 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 23:00:44 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 32 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 292a2a57-1690-41bf-a85b-5e9b774129c4 Screenshot - H:\Workspace\smartview\reports\screenshots\1439262043729_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:00:44 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439262044102_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:00:44 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 23:10:20 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 35 milliseconds
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: fd52747c-3b0d-4a7f-93f3-bcd0fd7c8fd6 Screenshot - H:\Workspace\smartview\reports\screenshots\1439262620191_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:10:20 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439262620558_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:10:20 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Mon Aug 10 23:11:56 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unable to locate element: {"method":"xpath","selector":"//span[2]/input[@class='k-formatted-value notFixedWidth k-input']"}
+Command duration or timeout: 30 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 17d86a2a-6a66-457e-bb37-363db307d2e7
+*** Element info: {Using=xpath, value=//span[2]/input[@class='k-formatted-value notFixedWidth k-input']} Screenshot - H:\Workspace\smartview\reports\screenshots\1439262716628_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:11:56 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439262716974_ScreenshotBrowser.png"	Failed	Mon Aug 10 23:11:57 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Tue Aug 18 13:15:25 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1439918124786_ScreenshotBrowser.png"	Failed	Tue Aug 18 13:15:25 EDT 2015
+
+Test Case Name: 	Notes
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Thu Sep 03 16:50:03 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unable to locate element: {"method":"xpath","selector":".//*[@id='menuButton_2']"}
+Command duration or timeout: 687 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2eab2478-2dc3-455c-8b02-21f00a37eecd
+*** Element info: {Using=xpath, value=.//*[@id='menuButton_2']} Screenshot - H:\Workspace\smartview\reports\screenshots\1441313402198_ScreenshotBrowser.png"	Failed	Thu Sep 03 16:50:03 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1441313403054_ScreenshotBrowser.png"	Failed	Thu Sep 03 16:50:03 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Wed Sep 09 13:11:26 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unable to locate element: {"method":"xpath","selector":"//tr/td[2]/span[2]/input[@class='k-formatted-value notFixedWidth k-input']"}
+Command duration or timeout: 35 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7799787e-157b-494d-954f-da9ea300b47e
+*** Element info: {Using=xpath, value=//tr/td[2]/span[2]/input[@class='k-formatted-value notFixedWidth k-input']} Screenshot - H:\Workspace\smartview\reports\screenshots\1441818685997_ScreenshotBrowser.png"	Failed	Wed Sep 09 13:11:26 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1441818686715_ScreenshotBrowser.png"	Failed	Wed Sep 09 13:11:27 EDT 2015
+
+Test Case Name: 	Export
+Environment Name: 	"ANIGAN Windows 8.1 6.3"
+Start Time: 	Wed Sep 09 13:18:46 EDT 2015
+S.No	Step Name	Status	Date/Time
+1	"; failure message: Unable to locate element: {"method":"xpath","selector":"//tr/td[2]/span[2]/input[@class='k-formatted-value notFixedWidth k-input']"}
+Command duration or timeout: 31 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '87c69e2', time: '2015-06-04 16:17:10'
+System info: host: 'ANIGAN', ip: '192.168.10.170', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.3, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 35a60c9f-a80c-4ca7-adef-1c07b3adc381
+*** Element info: {Using=xpath, value=//tr/td[2]/span[2]/input[@class='k-formatted-value notFixedWidth k-input']} Screenshot - H:\Workspace\smartview\reports\screenshots\1441819126546_ScreenshotBrowser.png"	Failed	Wed Sep 09 13:18:46 EDT 2015
+2	"; failure message: There are errors in test output Screenshot - H:\Workspace\smartview\reports\screenshots\1441819126978_ScreenshotBrowser.png"	Failed	Wed Sep 09 13:18:47 EDT 2015

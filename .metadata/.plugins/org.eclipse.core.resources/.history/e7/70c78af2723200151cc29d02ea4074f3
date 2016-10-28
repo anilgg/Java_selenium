@@ -1,0 +1,42 @@
+package com.note;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import jxl.write.DateFormat;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class timer {
+
+	public static void main(String[] args) {
+		String startTime = dateTimePicker();
+		System.out.println("Start time is: "+ startTime );
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://foundationia.alpha.live.qa.oceanwidebridge.com/Foundation.IAS.WebClient/Default.aspx");
+		new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//*[@id='dvContent_4']/div[2]/table/tbody/tr[1]/td[3]")));
+		String endTime = dateTimePicker();
+		System.out.println("End time is: "+ endTime );
+		Double totalTime = (double) (Long.parseLong(endTime) - Long.parseLong(startTime));
+		String total = String.valueOf(totalTime);
+		System.out.println("Total Page Load Time: " + totalTime + "	milliseconds");
+		//YYYY-MM-DD HH:MI:Sec
+		//Long.parseLong)(startTime)
+		//long start = System.currentTimeMillis();
+	}
+
+	public static String dateTimePicker()
+	{
+		SimpleDateFormat dateFormat = new SimpleDateFormat("MMddyyyyHHmmss.SSS");
+		Date date = new Date();
+		String date1= dateFormat.format(date);
+		return date1;
+	}
+}
+
+

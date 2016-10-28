@@ -1,0 +1,118 @@
+package selenium.core;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+
+public class Config {
+	
+	public static String currentClassName;
+	public static String currentSuiteName;
+	
+	
+	
+	/**
+	 * retrun to common folder
+	 * @return
+	 * @throws IOException
+	 */
+
+	public static String getCommonFolderPath() throws IOException {
+		return new File(".").getCanonicalPath()+File.separator+"common";
+	}
+	
+	
+	/**
+	 * To get the current project Name
+	 * Ex: smartview
+	 * @return
+	 * @throws IOException
+	 */
+	
+	
+	public static String getCurrentProjectName() throws IOException{
+		
+		return new File(".").getCanonicalFile().getName();
+	}
+	
+	public static void setCurrentClassName(String currentClassName){
+		Config.currentClassName = currentClassName;
+		
+	}
+	public static void setCurrentSuiteName(String currentSuiteName){
+		Config.currentSuiteName=currentSuiteName;
+	}
+	public static String getCurrentSuiteName(){
+		return currentSuiteName;
+	}
+	public static String getCurrentClassName(){
+		return currentClassName;
+	}
+	
+	/**
+	 * gets the current test name
+	 * @return
+	 */
+	
+	public static String getCurrentTestName(){
+		String className = Config.getCurrentClassName();
+		String[] classes = className.split("\\");
+		ArrayList<String> classesList = new ArrayList<String>(Arrays.asList(classes));
+		return classesList.get(classesList.size()-1);
+	}
+	
+	
+	public static String getCurrentShortSuiteName(){
+		String suitesName = Config.getCurrentSuiteName();
+		String[] classes = suitesName.split("\\");
+		ArrayList<String> classesList = new ArrayList<String>(Arrays.asList(classes));
+		return classesList.get(classesList.size()-1);
+	}
+	
+	public static String getCurrentRequirementName(){
+		String className = Config.getCurrentClassName();
+		String[] classes = className.split("\\");
+		ArrayList<String> classesList = new ArrayList<String>(Arrays.asList(classes));
+		String result = classesList.get(classesList.indexOf("testscripts")+1);
+		
+		for(int i=classesList.indexOf("testscripts")+2 ; i<classesList.size()-1;++i){
+			result+=File.separator +classesList.get(i);
+		}
+		return result;
+	}
+	
+	public static String getProperty(String key, String defaultValue) {
+		String propertyValue = defaultValue;
+
+		readAllProperties();
+
+		if (globalConfig.containsKey(key)) {
+			propertyValue = globalConfig.getProperty(key);
+		}
+		if(config != null){
+			if (config.containsKey(key)) {	//	project-specific property overrides global one
+				propertyValue = config.getProperty(key);
+			}
+		}
+
+		return propertyValue;
+	}
+
+	public static Properties loadProperties(String path) throws Exception {
+		Properties result = new Properties();
+		result.load(new FileInputStream(path));
+		return result;
+	}
+
+	public static void reset()
+	{
+		globalConfig = null;
+		config = null;
+	}
+
+}
+
+
+

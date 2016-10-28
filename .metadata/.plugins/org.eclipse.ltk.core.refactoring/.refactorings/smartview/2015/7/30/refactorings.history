@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestData.java&apos; to &apos;common/src/selenium.core&apos;&#x0D;&#x0A;- Original project: &apos;smartview&apos;&#x0D;&#x0A;- Destination element: &apos;common/src/selenium.core&apos;&#x0D;&#x0A;- Original element: &apos;selenium.core.TestData.java&apos;" description="Copy compilation unit" destination="=common/src&lt;selenium.core" element1="/src&lt;selenium.core{TestData.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1437705527490" units="1" version="1.0"/>
+</session>

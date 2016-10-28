@@ -1,0 +1,18 @@
+package selenium.core;
+
+import java.util.Stack;
+
+public class CustomListener {
+	
+	private static Stack<Boolean> batchMode = new Stack<Boolean>();
+	
+	public static boolean getBatchMode(){
+		return CustomListener.batchMode.empty() ? false : CustomListener.batchMode.peek();
+	}
+	
+	protected static String getShortClassName(){
+		String[] fullClassName = CustomListener.currentTestClass.split("\\.");
+		return fullClassName[fullClassName.length-1];
+	}
+
+}

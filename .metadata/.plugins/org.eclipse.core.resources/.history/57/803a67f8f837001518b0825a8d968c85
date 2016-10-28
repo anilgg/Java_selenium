@@ -1,0 +1,28 @@
+package selenium.core;
+
+import java.util.Stack;
+
+import org.one.stone.soup.screen.recorder.ScreenRecorder;
+
+public class CustomListener {
+	
+	private static Stack<Boolean> batchMode = new Stack<Boolean>();
+	private static String currentTestClass = "";
+	private static ScreenRecorder screenRecorder;
+	
+	public static boolean getBatchMode(){
+		return CustomListener.batchMode.empty() ? false : CustomListener.batchMode.peek();
+	}
+	
+	protected static String getShortClassName(){
+		String[] fullClassName = CustomListener.currentTestClass.split("\\.");
+		return fullClassName[fullClassName.length-1];
+	}
+	
+	public static String getMonteFileName(){
+		
+		return screenRecorder.getCreatedMovieFiles().get(0).getName();
+	}
+	
+
+}

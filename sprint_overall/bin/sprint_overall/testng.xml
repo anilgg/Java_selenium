@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread="1" verbose="1" name="Regression Test Cases"> 
+       <test name="Testopen"> 
+              <classes> 
+                     <class name="sprint_overall.Workbooksheet"/>
+              </classes> 
+       </test> 
+         <test name="Test1">
+              <classes> 
+              <class name="sprint_overall.MyAccount_87"/> 
+              </classes> 
+       </test> 
+        <test name="Test2"> 
+              <classes> 
+                     <class name="sprint_overall.MyAccount_97"/> 
+       </classes>
+       </test>  
+    <test name="Test3">
+       <classes>
+              <class name="sprint_overall.MyAccount_56"/> 
+       </classes>
+    </test> 
+      <test name="Test4"> 
+              <classes> 
+                     <class name="sprint_overall.MyAccount_59"/> 
+              </classes>
+    </test> 
+    <test name="Test5">
+       <classes> 
+              <class name="sprint_overall.MyAccount_105"/> 
+        </classes> 
+    </test>
+    <test name="Test6"> 
+       <classes> 
+                     <class name="sprint_overall.MyAccount_136"/>
+        </classes> 
+    </test> 
+    <test name="Test7"> 
+       <classes>
+             <class name="sprint_overall.MyAccount_15"/>
+       </classes>
+       </test>
+    <test name="Test8"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_16"/> 
+        </classes> 
+    </test> 
+        <test name="Test9">
+       <classes> 
+                <class name="sprint_overall.MyAccount_163"/>
+        </classes> 
+       </test>  
+       <test name="Test10"> 
+              <classes>
+              <class name="sprint_overall.MyAccount_164"/> 
+              </classes> 
+       </test> 
+     <test name="Test11"> 
+       <classes>  
+                     <class name="sprint_overall.MyAccount_165"/>
+        </classes> 
+    </test> 
+   <test name="Test12"> 
+       <classes>
+             <class name="sprint_overall.MyAccount_166"/>
+       </classes>
+       </test>
+     <test name="Test13"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_167"/> 
+        </classes>
+    </test>  
+       <!--    <test name="Test14"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_265"/> 
+              </classes> 
+       </test> -->
+       <test name="Test15">
+       <classes> 
+                <class name="sprint_overall.MyAccount_187"/>
+        </classes> 
+       </test> 
+      <test name="Test16"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_36"/> 
+              </classes> 
+          </test>    
+             <test name="Test17">
+       <classes> 
+                <class name="sprint_overall.MyAccount_256"/>
+        </classes> 
+       </test> 
+         <test name="Test18"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_199"/> 
+              </classes> 
+       </test>   
+        <test name="Test19"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_194"/> 
+              </classes> 
+       </test>  
+        <test name="Test20"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_335"/> 
+              </classes> 
+       </test> 
+        <!--   <test name="Test21"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_258"/> 
+              </classes> 
+       </test> -->
+         <test name="Test22"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_37"/> 
+              </classes> 
+       </test>   
+          <test name="Test23"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_266"/> 
+              </classes> 
+       </test>
+      <test name="Test24"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_100"/> 
+              </classes> 
+       </test>  
+       <test name="Test25"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_121"/> 
+              </classes> 
+       </test> 
+          <test name="Test26"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_99"/> 
+              </classes> 
+         </test>   
+         <test name="Test27"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_343"/> 
+              </classes> 
+       </test> 
+           <test name="Test28"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_09"/> 
+              </classes> 
+       </test> 
+       <test name="Test29"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_76"/> 
+              </classes>
+       </test> 
+       <test name="Test-30"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_111"/> 
+              </classes>
+       </test>
+       <test name="Test-31"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_113"/> 
+              </classes>
+       </test>
+          <test name="Test-32"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_151"/> 
+              </classes>
+       </test>
+       <test name="Test-33"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_269"/> 
+              </classes>
+       </test>
+       <test name="Test-33"> 
+              <classes> 
+              <class name="sprint_overall.MyAccount_311"/> 
+              </classes>
+       </test>
+       <test name="TestClose"> 
+              <classes> 
+              <class name="sprint_overall.Workbooksheet_close"/> 
+              </classes> 
+       </test>
+</suite>
+
+
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread="1" verbose="1" name="Boost Regression Test Cases"> 
+       <test name="Testopen"> 
+              <classes> 
+                     <class name="Boost_Regression.ReadFromWorkbook"/>
+              </classes> 
+       </test> 
+         <test name="Test1"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_09"/> 
+       </classes>
+       </test> 
+    <test name="Test2">
+       <classes>
+              <class name="Boost_Regression.Boost_MyAct_163"/> 
+       </classes>
+    </test>
+    <test name="Test3"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_164"/> 
+              </classes>
+    </test>
+      <test name="Test4"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_165"/> 
+              </classes>
+    </test>
+    <test name="Test5"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_166"/> 
+              </classes>
+    </test>
+    <test name="Test6"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_167"/> 
+                     </classes>
+    </test>
+                   <!--   <test name="Test7"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_36"/> 
+              </classes>
+    </test>
+                     <test name="Test8"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_37"/> 
+              </classes>
+    </test> -->
+             <test name="Test9"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_100"/> 
+              </classes>
+    </test>
+             <test name="Test10"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_105"/> 
+              </classes>
+    </test>
+             <test name="Test11"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_111"/> 
+              </classes>
+    </test>
+             <test name="Test12"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_113"/> 
+              </classes>
+    </test>
+             <test name="Test13"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_121"/> 
+              </classes>
+    </test>
+             <test name="Test14"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_15"/> 
+              </classes>
+    </test>
+             <test name="Test15"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_151"/> 
+              </classes>
+    </test>
+             <test name="Test16"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_16"/> 
+              </classes>
+    </test>
+             <test name="Test17"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_187"/> 
+              </classes>
+    </test>
+               <test name="Test18"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_194"/> 
+              </classes>
+    </test>
+             <test name="Test19"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_199"/> 
+              </classes>
+    </test>
+             <test name="Test20"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_303"/> 
+              </classes>
+    </test>
+             <test name="Test21"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_311"/> 
+              </classes>
+    </test>
+             <test name="Test22"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_311"/> 
+              </classes>
+    </test>
+             <test name="Test23"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_56"/> 
+              </classes>
+    </test>
+             <test name="Test24"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_76"/> 
+              </classes>
+    </test>
+             <test name="Test8"> 
+              <classes> 
+                     <class name="Boost_Regression.Boost_MyAct_58"/> 
+              </classes>
+    </test>
+       <test name="TestClose"> 
+              <classes> 
+              <class name="Boost_Regression.WriteToWorkbook"/> 
+              </classes> 
+       </test>
+</suite>

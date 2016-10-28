@@ -1,0 +1,103 @@
+package selenium.core;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.Hashtable;
+
+import org.apache.james.mime4j.field.address.parser.ASTangle_addr;
+
+public class TestData {
+	
+	public static final String DEFAULT_SEPERATOR = "//";
+	public boolean isTable = false;
+	
+	private static String commanSheet = "commaon";
+	private Hashtable<String, ArrayList<String>> internalData = null;
+	
+	private TestData(Hashtable<String,ArrayList<String>> internalData, boolean isTable){
+		this.internalData = internalData;
+		this.isTable=isTable;
+	}
+	
+	public String toString(){
+		return internalData.toString();
+	}
+	
+	public static String getCommonSheet(){
+		return TestData.commanSheet;
+	}
+	
+	public static void setCoomonsheet(String sheetName){
+		TestData.commanSheet=sheetName;
+	}
+	
+	
+	public static String getAbsoluteTestDataPath(String fileName) throws IOException{
+		File tmpFile = new File(fileName);
+		if(!tmpFile.isAbsolute()){
+			File tmpDir = new File("." + File.separator + Config.getCurrentProjectName() + File.separator + "testdata" + File.separator);
+			if(!tmpDir.exists()){
+				tmpDir = new File("." + File.separator + "testdata" + File.separator);
+			}
+			fileName = tmpDir.getCanonicalPath() + File.separator + fileName;
+		}
+		return fileName;
+	}
+	
+	public static TestData getTestData(){
+		return getTestData("TestData");
+	}
+	
+	public static TestData getTestData(String tableName){
+		return getTestData(Config.getCurrentRequirementName() + ".xls", tableName);
+		
+	}
+	
+	public static TestData getTestData(String filename, String tablename){
+		Hashtable<String, ArrayList<String>> tmpInternalData = getInternalTestDataTable(filename, tablename, false);
+		return new TestData(tmpInternalData,false);
+	}
+	
+	/**
+	 * To get test data table
+	 */
+	private static Hashtable<String, ArrayList<String>> getInternalTestDataTable(String filename, String tablename, boolean asTable){
+		Hashtable<String, ArrayList<String>> localData = getInternalTestDataTableOnSheet(filename, Config.getCurrentTestName(), tablename, asTable);
+		Hashtable<String, ArrayList<String>> commonData = getInternalTestDataTableOnSheet(filename, getCommonSheet(), tablename, asTable);
+		Hashtable<String, ArrayList<String>> result = null;
+		if(asTable){
+			result = CustomListener.getBatchMode() ? commonData : localData;
+			if(result.isEmpty()){
+				result = CustomListener.getBatchMode() ? commonData : localData;
+			}
+		}else{
+			result = CustomListener.getBatchMode() ? commonData : localData;
+			result.putAll(CustomListener.getBatchMode() ? commonData : localData);
+		}
+		if(result.isEmpty()){
+		}
+		return result;
+	}
+
+	private static Hashtable<String,ArrayList<String>> getInternalTestDataTableOnSheet(String fileName, String sheetName, String tableName, Boolean asTable){
+		Hashtable<String, ArrayList<String>> result = new Hashtable<String, ArrayList<String>>();
+		InputStream textDataExel = null;
+		try{
+			textDataExel = new FileInputStream(getAbsoluteTestDataPath(fileName));
+			Workbook wb = new HSSFWorkbook(testDataExel);
+			
+		}
+		
+		
+	}
+	
+}
+
+
+	
+	
+	
+

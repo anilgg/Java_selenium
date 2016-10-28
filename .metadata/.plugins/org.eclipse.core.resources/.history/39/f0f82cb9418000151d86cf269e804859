@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread="1" verbose="1" name="Test Cases"> 
+       <test name="Testopen"> 
+              <classes> 
+                     <class name="sprint_overall.Workbooksheet"/>
+              </classes> 
+       </test> 
+         <test name="Test1">
+              <classes> 
+              <class name="sprint_overall.MyAccount_87"/> 
+              </classes> 
+       </test> 
+        <test name="Test2"> 
+              <classes> 
+                     <class name="sprint_overall.MyAccount_97"/> 
+       </classes>
+       </test>  
+</suite>
+
+
+
+

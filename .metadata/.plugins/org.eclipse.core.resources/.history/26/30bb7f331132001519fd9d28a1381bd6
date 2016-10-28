@@ -1,0 +1,27 @@
+package com.note;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class timer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		long startTime = System.currentTimeMillis();
+		WebDriver driver = new FirefoxDriver();
+		driver.get("http://zyxware.com");
+
+		new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id("Calculate")));
+
+		long endTime = System.currentTimeMillis();
+
+		long totalTime = endTime - startTime;
+
+		System.out.println("Total Page Load Time: " + totalTime + "	milliseconds");
+	}
+
+}
